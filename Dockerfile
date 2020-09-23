@@ -1,2 +1,2 @@
-FROM node:latest
-CMD npm i env-cmd react-scripts -g --silent
+FROM node:lts-alpine
+RUN npm i env-cmd react-scripts@3.4.1 -g
